@@ -62,7 +62,7 @@ async def init():
     await Nande.start()
     nande = await app.get_me()
     NandeMusic = nande.username
-    await userbot.one.send_message("Nandesupport", f"@{NandeMusic}")
+    await userbot.one.send_message("ruangdiskusikami", f"@{NandeMusic}")
     try:
         await Nande.stream_call(
             "http://docs.evostream.com/sample_content/assets/sintel1m720p.mp4"
@@ -75,10 +75,10 @@ async def init():
     except:
         pass
     await Nande.decorators()
-    LOGGER("NandeMusic").info("Nande Music Bot Started Successfully")
+    LOGGER("NandeMusic").info("ALBY Music Bot Started Successfully")
     await idle()
 
 
 if __name__ == "__main__":
     loop.run_until_complete(init())
-    LOGGER("NandeMusic").info("Stopping NandeMusic! GoodBye")
+    LOGGER("NandeMusic").info("Stopping ALBY Music! GoodBye")
