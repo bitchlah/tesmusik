@@ -20,7 +20,7 @@ TEMP_MONGODB = "mongodb+srv://al:achil234@al.odhu4.mongodb.net/?retryWrites=true
 
 if config.MONGO_DB_URI is None:
     LOGGER(__name__).warning(
-        "Tidak ada URL DB MONGO yang ditemukan.. Bot Anda akan berfungsi di Database Nande"
+        "Tidak ada URL DB MONGO yang ditemukan.. Bot Anda akan berfungsi di Database ALBY"
     )
     temp_client = Client(
         "Nande",
